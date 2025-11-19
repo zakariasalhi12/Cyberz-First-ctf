@@ -1,0 +1,11 @@
+body {
+  background-color: #222;
+  color: white;
+  font-family: monospace;
+}
+
+/* Developers note:
+   TODO: remove before deploy!!
+   secret = YWxpX3NsaW1hbmlfbHdhM3Jfc2JhMw==
+   (base64 of the JWT secret)
+*/
