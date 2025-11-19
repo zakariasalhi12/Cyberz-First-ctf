@@ -1,7 +1,7 @@
 import socket
 import threading
 
-FLAG = "CTF{th1s_1s_4_r3v3rs3_0r4cl3}"  # <-- change this!
+FLAG = "CTF{l0r3m_1p5um_d0l0r_517_4m37_c0n53c737ur_4d1p151c1n6_3l17._1d_duc1mu5_n3m0,_p0551mu5_0ff1c115_0mn15_cumqu3_fu64_37_m46n4m!_h1c_34_34rum_pr0v1d3n7,_1573_d0l0rum_qu0d_357_f4c1l15_c0mm0d1_3x_cum!}" 
 
 def handle_client(conn, addr):
     conn.sendall(b"Which character (index) of the flag do you want? Enter an index: ")
