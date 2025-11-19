@@ -14,7 +14,7 @@ FLAG = "CyberZ{h1dd3n_1n_c55}"
 @app.route("/")
 def index():
     return """
-    <h1>Welcome to the Flask CTF</h1>
+    <h1></h1>
     <p><a href='/register'>Register</a> | <a href='/login'>Login</a></p>
     """
 
